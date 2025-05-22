@@ -1,0 +1,36 @@
+.app-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: .75rem 0rem;
+
+  color: #fff;
+
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+
+  border: none;
+  border-radius: 6.25rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.app-button.text {
+  background-color: rgba(7, 176, 251, 1);
+  color: white;
+  justify-content: center;
+}
+
+.app-button.icon {
+  justify-content: space-between;
+
+  background-color: transparent;
+  color: rgba(38, 38, 38, 1);
+  font-weight: 600;
+}
+
+mat-icon {
+  color: rgba(7, 176, 251, 1);
+  font-size: 1.5rem;
+}

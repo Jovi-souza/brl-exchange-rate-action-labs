@@ -1,0 +1,10 @@
+:host {
+  box-sizing: border-box;
+
+  display: block;
+  height: 100vh;
+
+  padding: 1rem .9rem;
+
+  font-family: 'Roboto', sans-serif;
+}

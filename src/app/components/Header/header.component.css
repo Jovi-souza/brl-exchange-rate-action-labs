@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.container img {
+  max-width: 10rem;
+  margin: auto;
+}
+
+.divider {
+  border-top-width: 2px;
+  border-color: rgba(217, 217, 217, 1);
+}
+
+.title {
+  text-align: center;
+
+  color: rgba(7, 176, 251, 1);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.85rem;
+}
