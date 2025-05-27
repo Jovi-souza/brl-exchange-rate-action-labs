@@ -12,6 +12,7 @@ const MODULES = [NgClass, NgIf, MatIconModule]
     <button
       type="submit"
       [ngClass]="variant"
+      [disabled]="disabled"
       class="app-button"
     >
       {{ label }}
@@ -24,5 +25,6 @@ const MODULES = [NgClass, NgIf, MatIconModule]
 export class ButtonComponent {
   @Input() label: string = 'Button';
   @Input() icon?: string;
+  @Input() disabled?: boolean;
   @Input() variant: 'text' | 'icon' = 'text';
 }

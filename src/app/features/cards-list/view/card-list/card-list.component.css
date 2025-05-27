@@ -52,71 +52,10 @@
 
 .cards-container {
   padding: 0.625rem;
-  background: rgba(244, 244, 244, 1);
+  background-color: rgba(244, 244, 244, 1);
+  height: max-content;
 
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
-
-.card {
-  background:  #fff;
-  padding: 1rem;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card > span {
-  font-weight: 600;
-  font-size: .875rem;
-  line-height: 1.375;
-  color: rgba(7, 176, 251, 1);
-}
-
-.card-footer {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-}
-
-.grid-price {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-
-  gap: 2.125rem;
-  row-gap: .25rem;
-  margin-top: .5rem;
-}
-
-.grid-price div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.grid-price > div:last-child {
-  display: flex;
-  justify-content: inherit;
-  gap: .5rem;
-
-  grid-column: span 2;
-}
-
-.grid-price > div:last-child strong {
-  color: rgba(229, 78, 78, 1);
-}
-
-.grid-price span {
-  font-size: .688rem;
-  font-weight: 500;
-  line-height: .875rem;
-  color: rgba(63, 63, 63, 1);
-
-  text-transform: uppercase;
-}
-
-.grid-price strong {
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  color: rgba(63, 63, 63, 1);
 }
